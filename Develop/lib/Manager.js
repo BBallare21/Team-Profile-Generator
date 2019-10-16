@@ -14,4 +14,4 @@ class Manager extends Employee {
 
 };
 
-new Manager('sdf', 4, "dffd@gmail.com",55)
+module.exports = Manager
