@@ -53,8 +53,8 @@ function promptUser() {
             message: "Which team member role would you like to add next?",
             choices: ["Engineer", "Intern", "I have no more memebers to add."]
             }
-        ]).then(userChoice => {
-            switch(userChoice.roleChoice) {
+        ]).then(choice => {
+            switch(choice.roleChoice) {
                 case "Engineer":
                     addEngineer();
                     break;
@@ -134,7 +134,7 @@ function promptUser() {
     createManager();
 
     function generateTeam() {
-        
+
     }
 }
 
